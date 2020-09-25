@@ -1,0 +1,41 @@
+h1 {
+  font-style: Secular One;
+  font-size: 40px;
+}
+#nav-bar {
+  margin-left: 80%;
+}
+
+#header-img {
+  max-width:15%;
+  margin-top: -3%;
+}
+ 
+h2, h3, h4, h5 {
+  font-size: 30px;
+}
+img {
+  max-width:33%;
+  display: flex;
+}
+body {
+  text-align: center;
+}
+.block {
+  float: left;
+  width: 33.3%;
+  border:1px solid #ccc;
+  padding:10px;
+  box-sizing:border-box;
+  margin-bottom:20px;
+  display: flex;
+}
+.text{
+  font-size: 30px;
+}
+ @media (min-width: 400px){
+    .container{
+      grid-template-areas:
+        "header header"
+        "advert content"
+        "footer footer";
